@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 
-export const API_URL = `http://localhost:8080/api`;
+export const API_URL = `https://task-example.onrender.com`;
 
 const axiosInstance: AxiosInstance = axios.create({
   withCredentials: true,
